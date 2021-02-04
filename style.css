@@ -1,0 +1,79 @@
+body {
+  font-family: monospace;
+  font-size: 16px;
+  background-image: url("bg.jpg");
+  background-size: 100%;
+  font-style: white;
+}
+table {
+  border-collapse: collapse;
+  border: none;
+  border-radius: 15px;
+
+}
+th {
+  border-radius: 15px;
+  border: none;
+  margin: 10px;
+}
+td {
+  border: none;
+  border-radius: 15px;
+  margin: 10px;
+}
+/* layout menu */
+
+.top_menu {
+  border: none;
+  background-color: lightgreen;
+  border-color: lightgreen;
+
+}
+.top_menu td {
+  text-align: center;
+  padding: 15px;
+}
+
+.top_menu a {
+  color: black;
+  text-decoration: none;
+  transition: .3s;
+  font-weight: bold;
+}
+
+.top_menu a:hover {
+  color: red;
+  text-decoration: overline;
+  transition: .3s;
+}
+.welcome {
+  width: 50%;
+  margin: 0 auto;
+}
+.welcome h1, .welcome h2 {
+  float: left;
+  margin: 15px;
+  vertical-align: middle;
+}
+.welcome h2 {
+  position: relative;
+  top: 5px;
+}
+
+/* profile */
+
+.top_profile {
+  width: 60%;
+  display: flex;
+  margin: 100px auto;
+  justify-content: space-between;
+  position: relative;
+  right: 50px;
+  padding: 15px;
+  background-color: gray;
+  border-collapse: collapse;
+  border-radius: 15px;
+}
+.top_profile table {
+  border-color: gray;
+}

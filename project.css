@@ -1,0 +1,39 @@
+body {
+  font-family: monospace;
+  font-size: 16px;
+  background-image: url("bg.jpg");
+  background-size: 100%;
+  font-style: white;
+}
+table {
+  border-collapse: collapse;
+  border: none;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+td {
+  border: none;
+  border-radius: 15px;
+  margin: 10px;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+}
+h3{
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+  font-family: monospace;
+}
+.others a{
+  postion:relative;
+  left:43%;
+}
+.footer{
+  background-color: lightgreen;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+}
